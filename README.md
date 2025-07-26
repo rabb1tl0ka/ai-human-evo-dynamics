@@ -14,7 +14,7 @@ Just as Homo sapiens didn't deliberately exterminate other human species but out
 ## 🚀 Quick Start
 1. **Run an experiment**: See [experiment instructions](docs/experiment-instructions.md)
 2. **Submit results**: Follow our [PR guide for beginners](docs/pr-guide-beginners.md)
-3. **View current prompt**: Check [current prompt](prompts/current/base-prompt.md)
+3. **View current prompt**: Check [current prompt](prompts/versions/stable/prompt.md)
 
 ## 📊 Current Findings
 *Results will be summarized here as data comes in*
@@ -32,11 +32,12 @@ Just as Homo sapiens didn't deliberately exterminate other human species but out
 ## 📈 Repository Structure
 ```
 ai-human-evo-dynamics/
-├── prompts/current/          # Latest prompt version
-├── prompts/versions/         # All prompt versions with results
-├── templates/               # Submission templates
-├── analysis/               # Pattern analysis and findings
-└── docs/                   # Documentation and guides
+├── prompts/versions/                   # All prompt versions with results
+├── prompts/versions/experimental/      # Experimental versions
+├── prompts/versions/stable/            # Latest stable version
+├── templates/                          # Submission templates
+├── analysis/                           # Pattern analysis and findings
+└── docs/                               # Documentation and guides
 ```
 
 ## 🙏 Acknowledgments

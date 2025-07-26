@@ -5,7 +5,7 @@ Test how different AI models respond to the hypothesis that AI-human dynamics mi
 
 ## 📋 What You'll Need
 - Access to any Large Language Model (LLM)
-- The current prompt (found in `/prompts/current/base-prompt.md`)
+- The current prompt (found in `/prompts/versions/stable/prompt.md`)
 - 5-10 minutes of your time
 
 ## 🚀 Step-by-Step Instructions
@@ -20,7 +20,7 @@ Pick any LLM you have access to:
 - **Other models** (Mistral, Cohere, etc.)
 
 ### Step 2: Copy the Prompt
-1. Navigate to `/prompts/current/base-prompt.md` in this repository
+1. Navigate to `/prompts/versions/stable/prompt.md` in this repository
 2. Copy the entire prompt text (including the markdown formatting is fine)
 3. Don't modify the prompt - we want consistent inputs across all experiments
 
@@ -49,7 +49,7 @@ Pick any LLM you have access to:
 1. Fork this repository
 2. Navigate to the appropriate folder:
    ```
-   /prompts/current/experiments/[company]/[model]/
+   /prompts/versions/stable/experiments/[company]/[model]/
    ```
 3. Create a new file: `YYYY-MM-DD_[your-username]_result.md`
 4. Use the experiment template to format your results

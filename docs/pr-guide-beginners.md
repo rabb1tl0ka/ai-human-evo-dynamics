@@ -45,8 +45,8 @@ git clone https://github.com/YOUR-USERNAME/ai-human-evo-dynamics.git
 cd ai-human-evo-dynamics
 
 # 2. Create your results file
-mkdir -p prompts/current/experiments/openai/gpt-4
-cp templates/experiment-template.md prompts/current/experiments/openai/gpt-4/2024-07-26_yourname_result.md
+mkdir -p prompts/versions/stable/experiments/openai/gpt-4
+cp templates/experiment-template.md prompts/versions/stable/experiments/openai/gpt-4/2024-07-26_yourname_result.md
 
 # 3. Edit the file with your results
 # [Use your favorite editor]
@@ -63,13 +63,13 @@ git push origin main
 
 **File path pattern:**
 ```
-prompts/current/experiments/[company]/[model]/YYYY-MM-DD_yourname_result.md
+prompts/versions/stable/experiments/[company]/[model]/YYYY-MM-DD_yourname_result.md
 ```
 
 **Examples:**
-- ChatGPT 4: `prompts/current/experiments/openai/gpt-4/2024-07-26_john_result.md`
-- Claude Sonnet: `prompts/current/experiments/anthropic/claude-sonnet-4/2024-07-26_sarah_result.md`
-- Gemini: `prompts/current/experiments/google/gemini-pro/2024-07-26_mike_result.md`
+- ChatGPT 4: `prompts/versions/stable/experiments/openai/gpt-4/2024-07-26_john_result.md`
+- Claude Sonnet: `prompts/versions/stable/experiments/anthropic/claude-sonnet-4/2024-07-26_sarah_result.md`
+- Gemini: `prompts/versions/stable/experiments/google/gemini-pro/2024-07-26_mike_result.md`
 
 **Company folder names:**
 - `openai` - for ChatGPT, GPT-4, etc.
