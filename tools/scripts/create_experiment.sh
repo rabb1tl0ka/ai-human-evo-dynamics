@@ -26,11 +26,12 @@ MODEL=$2
 # Get current date
 CURRENT_DATE=$(date +%Y-%m-%d)
 
-# Get GitHub username
-GITHUB_USER=$(gh auth status 2>&1 | grep "Logged in to github.com as" | awk '{print $6}' | head -1)
+# Ask user for their GitHub username
+echo -n "🔑 Enter your GitHub username: "
+read -r GITHUB_USER
 
 if [ -z "$GITHUB_USER" ]; then
-    echo "❌ Could not detect GitHub username. Make sure you're logged in with 'gh auth login'"
+    echo "❌ Username cannot be empty."
     exit 1
 fi
 
@@ -42,7 +43,7 @@ echo "   GitHub User: $GITHUB_USER"
 
 # Create target directory path
 TARGET_DIR="prompts/versions/stable/experiments/$COMPANY/$MODEL"
-FILENAME="$CURRENT_DATE\_$GITHUB_USER\_result.md"
+FILENAME="${CURRENT_DATE}_${GITHUB_USER}_result.md"
 FILEPATH="$TARGET_DIR/$FILENAME"
 
 # Check if target directory exists
