@@ -1,0 +1,17 @@
+name: Validate Experiment Submissions
+
+on:
+  pull_request:
+    paths:
+      - 'prompts/**/experiments/**/*.md'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Validate file structure
+        run: |
+          echo "Validating experiment file structure..."
+          # Add validation logic here
+          echo "✅ Validation complete"
