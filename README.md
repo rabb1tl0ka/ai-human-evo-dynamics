@@ -21,10 +21,10 @@ So, I created this repo to organize the research aroung this topic.
 ## 🧬 The Hypothesis
 Just as Homo sapiens didn't deliberately exterminate other human species but outcompeted them through superior capabilities, advanced AI systems might not need malicious intent to dramatically alter human dominance. This research explores whether competitive displacement patterns from human evolution might parallel potential AI-human dynamics.
 
-## 🚀 Quick Start
-1. **Run an experiment**: See [experiment instructions](docs/experiment-instructions.md)
-2. **Submit results**: Follow our [PR guide for beginners](docs/pr-guide-beginners.md)
-3. **View current prompt**: Check [current prompt](prompts/versions/stable/prompt.md)
+## 🚀 How to contribute
+1. Copy this [prompt](/prompts/versions/stable/prompt.md). See more details [about running an experiment](docs/experiment-instructions.md).
+2. Send the prompt to your LLM of choice
+3. Submit your results by following our [PR guide for beginners](docs/pr-guide-beginners.md)
 
 ## 📊 Current Findings
 *Results will be summarized here as data comes in*
